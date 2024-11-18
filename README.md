@@ -38,7 +38,7 @@ After the dataset has been prepared, we could run the follow command to train.
 > python main.py --is-train --dataset coco --caption-file caption.mat --index-file index.mat --label-file label.mat --lr 0.001 --output-dim 64 --save-dir ./result/coco/64 --clip-path ./ViT-B-32.pt --batch-size 128
 
 ### Citation
-@ARTICLE{10530441,  
+@ARTICLE{128830,  
   author={Wu, Lei and Qin, Qibing and Hou, jinkui and Dai, jiangyan and Huang, Lei and Zhang, Wenfeng},  
   journal={Neurocomputing},  
   title={Deep multi-similarity hashing via label-guided network for cross-modal retrieval},  
